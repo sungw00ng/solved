@@ -1,22 +1,22 @@
 def solution(X, Y):
     answer = []
     
-    for i in X:
-        if i in Y:  
-            answer.append(i)
-            Y = Y.replace(i, "", 1)  
-            """
-            break는 반례가 존재해서 replace 써야됨.
-            """
+    # 각 문자에 대해 반복하여 Y에서 제거
+    for i in sorted(set(X), reverse=True):
+        if i in Y:
+            # X와 Y에서 공통된 최소 횟수만큼 추가
+            common_count = min(X.count(i), Y.count(i))
+            answer.extend([i] * common_count)
+            Y = Y.replace(i, "", common_count)
     
-    #일치안하는 경우
-    if not answer:  
+    # 일치안하는 경우
+    if not answer:
         return "-1"
     
     # 하나의 0 반환
     if all(i == '0' for i in answer):
         return "0"
-
+    
     # 내림차순으로 정렬
-    answer = sorted(answer, reverse=True)
+    answer.sort(reverse=True)
     return ''.join(answer)
