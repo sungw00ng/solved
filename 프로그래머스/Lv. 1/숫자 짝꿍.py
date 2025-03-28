@@ -5,6 +5,9 @@ def solution(X, Y):
         if i in Y:  
             answer.append(i)
             Y = Y.replace(i, "", 1)  
+            """
+            break는 반례가 존재해서 replace 써야됨.
+            """
     
     #일치안하는 경우
     if not answer:  
