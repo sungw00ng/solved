@@ -21,7 +21,7 @@ def solution(X, Y):
     #내림차순
     answer = sorted(answer, reverse=True)
     
-    # 0이 여러 개일 경우 하나의 "0"만 반환하도록 처리
+    # 하나의 0 반환
     if answer[0] == "0":
         return "0"
     
