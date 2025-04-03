@@ -1,5 +1,5 @@
-#참고자료
 '''
+참고자료: 윤주한님
 https://velog.io/@yoonjuhan/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Lv.1-%EC%9C%A0%EC%97%B0%EA%B7%BC%EB%AC%B4%EC%A0%9C-Python
 '''
 
