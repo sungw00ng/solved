@@ -1,6 +1,3 @@
-`   오리   ` <br>
-https://www.acmicpc.net/source/94841341 <br>
-```python
 sound=list(input())
 ans=0
 
@@ -34,4 +31,3 @@ if any(sound) or ans==0:
     print(-1)
 else:
     print(ans)
-```
