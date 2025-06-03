@@ -35,6 +35,7 @@ for i in row_matrix:
 해당하는 칸에만 있어도 모든 유성이 멈춤을 알 수 있었다.
 - 시뮬레이션 유형의 격자 이동임을 확신했다.
 - 유니티 3d 게임 만들 때 ground체크 하는 거랑 비슷하다..
+- 체감상 골드로의 승급이 필요한 문제다..
 ```python
 R,S=map(int, input().split())
 matrix= [list(input()) for _ in range(R)]
