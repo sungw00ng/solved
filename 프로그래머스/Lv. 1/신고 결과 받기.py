@@ -20,7 +20,7 @@ def solution(id_list, report, k):
         for reported in dic[i]:
             if userID[reported]>=k: 
                 result.append(i)  
-    print(result)
+                
     #각 사람별로 신고당한 사람 수를 계산하여 결과를 리턴
     final_result=[result.count(user) for user in id_list]
     return final_result
