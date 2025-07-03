@@ -97,6 +97,7 @@ print(list(combinations_with_replacement([1, 2], 2)))# 중복 조합
 
 ```
 >[Lv1_삼총사](https://school.programmers.co.kr/learn/courses/30/lessons/131705)<br>
+>[Lv1_소수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12977)<br>
 <br><br>
 
 ### zip,all,any,chain
@@ -119,8 +120,8 @@ print(any(x > 5 for x in lst2))  # True
 # chain: 리스트 이어붙이기
 print(list(chain(lst1, lst2)))   # [1, 2, 3, 4, 5, 6]
 ```
-[Lv1_음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501https://school.programmers.co.kr/learn/courses/30/lessons/76501)<br>
-[Lv1_소수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12977)<br>
+>[Lv1_음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501https://school.programmers.co.kr/learn/courses/30/lessons/76501)<br>
+
 
 <br><br>
 
@@ -158,14 +159,14 @@ print(data)
 
 <br><br>
 
-### 리스트 내포, 딕셔너리(k:문자열 or 숫자, v:리스트) 내포
+### 리스트 내포, 딕셔너리(k:문자열, v:리스트 or 숫자) 내포
 ```python
 final_result=[result.count(user) for user in id_list]
 giftscore = {f: 0 for f in friends}
 ab_history = {f: [] for f in friends}
 ```
-[신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)<br>
-[가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)<br>
+>[신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)<br>
+>[가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)<br>
 
 
 
