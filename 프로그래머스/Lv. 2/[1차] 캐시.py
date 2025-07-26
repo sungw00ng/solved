@@ -14,11 +14,11 @@ def solution(cacheSize, cities):
         if city in cache:
             cache.remove(city)
             cache.append(city)
-            time += 1  #cache hit
+            time+=1  #cache hit
         else:
             if len(cache) >= cacheSize:
                 cache.pop(0)
             cache.append(city)
-            time += 5  #cache miss
+            time+=5  #cache miss
 
     return time
