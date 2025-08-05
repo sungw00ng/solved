@@ -5,8 +5,8 @@
 <br>
 
 ### order by case when end  <br>
--join on, case when end 등을 기본적으로 개념을 안다는 느낌에서 베이스로 깔고 문제를 푸는 느낌이었다. <br>
-다만 아래문제에서 case when end를 order by에도 사용할 수 있다는 사실에 처음에 꽤 충격먹었던 것 같다.. <br>
+- join on, case when end 등을 기본적으로 개념을 안다는 느낌에서 베이스로 깔고 문제를 푸는 느낌이었다. <br>
+- 다만 아래문제에서 case when end를 order by에도 사용할 수 있다는 사실에 처음에 꽤 충격먹었던 것 같다.. <br>
 [고양이와 개는 몇 마리 있을까](https://school.programmers.co.kr/learn/courses/30/lessons/59040)<br>
 
 <br>
