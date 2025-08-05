@@ -32,7 +32,7 @@
 - 복잡도가 높진 않아서 이정도면...뭐 풀만하다라고 느꼈던 것 같다. <br>
 [부모의 형질을 모두 가지는 대장균 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/301647)<br>
 - 실질적으로는 같은 bit flag 문제 중에 `조건에 맞는 개발자 찾기`가 더 어려웠다. <br>
-- 이게 왜 where 절에... bit flag를 쓰는거지..? 하고 혼동이 왔었고 <br>
+- 코드 스킬을 더하기 하는데 이게 왜 bit flag를 쓰는 문제인거지..? 하고 혼동이 왔었고 <br>
 - from에 서브쿼리로 두개의 테이블을 하나로 합쳐야하는... 다소 해결법을 떠올리기 어려웠다고 느꼈다. <br>
 [조건에 맞는 개발자 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/276034)<br>
 
