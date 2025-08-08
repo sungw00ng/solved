@@ -10,5 +10,5 @@ car_id,
         ELSE '대여 가능'
     END AS AVAILABILITY
 FROM car_rental_company_rental_history
-GROUP BY car_id,AVAILABILITY
+GROUP BY car_id
 ORDER BY car_id DESC;
