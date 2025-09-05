@@ -15,7 +15,7 @@ for i in range(n+1): #low
 print(cnt)
 ```
 
-# 비트 마스킹
+## 비트 마스킹
 ```python3
 n=int(input()) 
 print((n*n+6)//12-n//4*(n+2>>2))
