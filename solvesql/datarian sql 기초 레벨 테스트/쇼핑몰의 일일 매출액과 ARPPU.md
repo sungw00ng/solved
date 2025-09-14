@@ -2,7 +2,7 @@
 https://solvesql.com/problems/daily-arppu/
 
 ```text
-간단했다.
+3단계였고 간단했다.
 ```
 
 ```sql
