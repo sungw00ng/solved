@@ -1,4 +1,4 @@
-## KUMOH 문자열
+## B번 KUMOH 문자열
 https://www.acmicpc.net/problem/34324 <br>
 
 ```text
