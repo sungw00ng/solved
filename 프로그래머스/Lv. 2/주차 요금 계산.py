@@ -27,6 +27,7 @@ def solution(fees,records):
     
     for car_num in sorted(total.keys()):
         time=total[car_num]
+        
         if time>basic_time:
             answer.append(basic_fee+ \
             math.ceil((time-basic_time)/unit_time)* \
