@@ -1,4 +1,4 @@
-### 2404 Denormalized Database
+### 2404_Denormalized Database
 https://platform.stratascratch.com/technical/2404-denormalized-database
 ```yml
 Company : Spotify+1 more
