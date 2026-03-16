@@ -1,6 +1,6 @@
 ## .md templates
-### (제목)
-(링크)
+### (문제번호_문제제목)
+(문제링크)
 ```yml
 Company : 
 Difficulty : 
