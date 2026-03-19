@@ -38,7 +38,7 @@ order by id;
 
 - Analyze
 ```
-As user pennyPincher1218 correctly pointed out,
+As user `pennyPincher1218` correctly pointed out,
 let's add 'where rn=1' to the 'row_number' clause.
 ```
 ```sql
