@@ -8,12 +8,13 @@ Title : Finding Updated Records
 ```
 
 - My solution
-```sql
+```
 Solution is incorrect.
 When there are multiple maximum salaries,
 I need to print only one, but i couldn't figure out how to do it right away.
 I think this was the cause.
-
+```
+```sql
 /*
 1. You can consider the current salary for an employee is 
     the largest salary value among their records.
@@ -39,7 +40,8 @@ order by id;
 ```
 As user pennyPincher1218 correctly pointed out,
 let's add 'where rn=1' to the 'row_number' clause.
-
+```
+```sql
 select 
     id,
     first_name,
