@@ -23,7 +23,9 @@ the model learns by optimizing the prediction accuracy for each class.
 - Analyze
 ```
 With the goal of answering in 90 seconds, GPT provided this response.
-When preparing for an interview, it definitely seems challenging to polish my answers in English: 
+When preparing for an interview, it definitely seems challenging to polish my answers in English:
+```
+```
 In a previous project, I developed a model to classify care service demand groups based on
 the medical records of over 194,000 seniors nationwide.
 During this project, I gained experience with LightGBM and its handling of missing values.
