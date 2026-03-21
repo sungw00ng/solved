@@ -8,6 +8,9 @@ Title : Workers With The Highest Salaries
 ```
 
 - My solution
+```
+Solved.
+```
 ```sql
 select
     t.worker_title
